@@ -4,6 +4,7 @@ import About from "./About";
 import BMI from "./BMI";
 import Services from "./Services";
 import Banner from "./Banner";
+import Trainers from "./Trainers";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <BMI />
         <Services />
         <Banner />
+        <Trainers />
       </div>
     </>
   );
