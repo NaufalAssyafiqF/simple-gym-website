@@ -5,6 +5,7 @@ import BMI from "./BMI";
 import Services from "./Services";
 import Banner from "./Banner";
 import Trainers from "./Trainers";
+import Popular from "./Popular";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Services />
         <Banner />
         <Trainers />
+        <Popular />
       </div>
     </>
   );
