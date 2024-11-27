@@ -8,6 +8,7 @@ import Trainers from "./Trainers";
 import Popular from "./Popular";
 import Pricing from "./Pricing";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <Popular />
         <Pricing />
         <Contact />
+        <Footer />
       </div>
     </>
   );
